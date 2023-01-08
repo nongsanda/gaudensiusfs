@@ -1,0 +1,18 @@
+jawaban:
+1. API RESTful adalah antarmuka yang digunakan oleh dua sistem komputer untuk bertukar informasi secara aman melalui internet.
+Sebagian besar aplikasi bisnis harus berkomunikasi dengan aplikasi internal dan pihak ketiga lainnya untuk melakukan berbagai tugas.
+
+3. headless architecture adalah konsep pengembangan software yang memisahkan lapisan frontend (antarmuka pengguna – UI)
+dan lapisan backend (logika bisnis) situs web.
+Dengan cara ini, bahkan sebagian besar bisnis dewasa mendapatkan kemampuan manuver dan fleksibilitas dari sebuah startup.
+kelebihan headless architecture adalah tidak perlu memakai front-end untuk mengakses API yang kita buat, saya memiliki contoh seperti ini
+menggunakan JavaScript async function getAPI(){
+       const API_URL = 'https://reqres.in/api/users'
+       let x = await fetch (API_URL)
+       .then(res => res.json())
+       .then(data => console.log(data))
+}
+
+getAPI()
+function getAPI untuk menyajikan data dari API dari reqres.in, maka dari itu kita harus perlu setup di front-end juga.
+kelebihan dari hedless architecture itu kita tidak perlu memakai front-end untuk menyajikjan data dari API.
